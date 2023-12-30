@@ -41,3 +41,14 @@ Terima kasih telah mengunjungi repositori ini dan selamat mencoba, "Happiness wi
 priview ui untu aplikasi buku
 
 
+
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231230_004002975.png)
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231230_003956269.png)
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231229_233128244.png)
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231229_232826439.png)
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231229_232801942.png)
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231229_232748685.png)
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231229_232731488.png)
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231229_232638536.png)
+![alt text](https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/blob/master/priview/20231229_232557702.png)
+
