@@ -3,7 +3,7 @@
 ini adalah projek flutter Getx koleksi buku sederhana yang mengimplementasikan sistem CRUD(create-read-update-delete) dengan restfull API (openApi).
 
 
-fitur di yang tersedia di aplikasi ini antara lain
+fitur yang tersedia di aplikasi ini antara lain
 
 1. register
 2. login
