@@ -12,6 +12,16 @@ fitur yang tersedia di aplikasi ini antara lain
 5. baca buku
 6. hapus buku
 
+link download aplikasi jadi  https://github.com/JuniorDeveloper17/Book-collection-project-using-Api-in-flutter/raw/master/priview/app-release.apk
+
+
+untuk akun yang sudah memiliki banyak data buku anda bisa login menggunakan
+
+email : ryandinata@gmail.com
+password : password
+
+atau anda bisa membuat akun pribadi anda sendiri 
+
 
 🕹 Cara Penggunaan
 
