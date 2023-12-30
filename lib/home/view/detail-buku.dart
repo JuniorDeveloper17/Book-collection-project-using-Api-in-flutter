@@ -52,7 +52,7 @@ class DetailBook extends StatelessWidget {
                           '${data.subtitle}',
                           style: TextStyle(
                               color: black,
-                              fontSize: 15,
+                              fontSize: 13,
                               fontWeight: FontWeight.w400),
                         ),
                       ],
@@ -66,42 +66,42 @@ class DetailBook extends StatelessWidget {
             Text(
               '${data.isbn}',
               style: TextStyle(
-                  color: black, fontSize: 15, fontWeight: FontWeight.w400),
+                  color: black, fontSize: 13, fontWeight: FontWeight.w400),
             ),
             SizedBox(height: 4),
             Text('author', style: TextStyle(color: grey, fontSize: 12)),
             Text(
               '${data.author}',
               style: TextStyle(
-                  color: black, fontSize: 15, fontWeight: FontWeight.w400),
+                  color: black, fontSize: 13, fontWeight: FontWeight.w400),
             ),
             SizedBox(height: 4),
             Text('published', style: TextStyle(color: grey, fontSize: 12)),
             Text(
               '${data.published}',
               style: TextStyle(
-                  color: black, fontSize: 15, fontWeight: FontWeight.w400),
+                  color: black, fontSize: 13, fontWeight: FontWeight.w400),
             ),
             SizedBox(height: 4),
             Text('publisher', style: TextStyle(color: grey, fontSize: 12)),
             Text(
               '${data.publisher}',
               style: TextStyle(
-                  color: black, fontSize: 15, fontWeight: FontWeight.w400),
+                  color: black, fontSize: 13, fontWeight: FontWeight.w400),
             ),
             SizedBox(height: 4),
             Text('page', style: TextStyle(color: grey, fontSize: 12)),
             Text(
               '${data.pages}',
               style: TextStyle(
-                  color: black, fontSize: 15, fontWeight: FontWeight.w400),
+                  color: black, fontSize: 13, fontWeight: FontWeight.w400),
             ),
             SizedBox(height: 4),
             Text('description', style: TextStyle(color: grey, fontSize: 12)),
             Text(
               '${data.description}',
               style: TextStyle(
-                  color: black, fontSize: 15, fontWeight: FontWeight.w400),
+                  color: black, fontSize: 13, fontWeight: FontWeight.w400),
             ),
             SizedBox(height: 10),
             InkWell(

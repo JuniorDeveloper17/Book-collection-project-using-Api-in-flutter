@@ -6,18 +6,18 @@ import 'package:test_msib1/core/dependency/dependency.dart';
 import 'package:test_msib1/core/widget/custom-error-alert.dart';
 import 'package:test_msib1/data/datasource/user-data.dart';
 import 'package:test_msib1/data/model/user-model.dart';
-
 import '../../core/theme/theme.dart';
 
 class ProfileController extends GetxController {
-  RxString tokens = ''.obs;
 
+  RxString tokens = ''.obs;
   Rx<UserModel> userData = UserModel().obs;
 
   Future saveToken({required String token}) async {
     SharedPreferences preferences = await SharedPreferences.getInstance();
     preferences.setString('token', token);
     tokens(token);
+    update();
   }
 
   Future getUserData() async {

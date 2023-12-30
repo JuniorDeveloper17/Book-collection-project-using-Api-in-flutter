@@ -7,6 +7,7 @@ import 'package:test_msib1/data/model/buku-model.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 class HomeController extends GetxController {
+  
   Future<BukuModel?> getAllBook() async {
     final data = await BookDataSource(token: profile.tokens.value).getBook();
     if (data != null) {
@@ -24,7 +25,6 @@ class HomeController extends GetxController {
         return "${urls}";
       }
     }
-
     // ignore: deprecated_member_use
     if (await canLaunch(url())) {
       // ignore: deprecated_member_use
@@ -37,7 +37,6 @@ class HomeController extends GetxController {
 
   TextEditingController search = TextEditingController();
   RxString searchText = ''.obs;
-
   RxInt jumlahBuku = 0.obs;
 
   @override

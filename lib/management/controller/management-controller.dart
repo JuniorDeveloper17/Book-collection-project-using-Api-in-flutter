@@ -22,52 +22,53 @@ class ManagementController extends GetxController {
 
   TextEditingController isbn = TextEditingController();
   TextEditingController title = TextEditingController();
-  TextEditingController subtitle = TextEditingController();
+  TextEditingController pages = TextEditingController();
   TextEditingController author = TextEditingController();
+  TextEditingController website = TextEditingController();
+  TextEditingController subtitle = TextEditingController();
   TextEditingController publisher = TextEditingController();
   TextEditingController published = TextEditingController();
   TextEditingController description = TextEditingController();
-  TextEditingController website = TextEditingController();
-  TextEditingController pages = TextEditingController();
+
   RxString createdAtt = ''.obs;
 
   @override
   void dispose() {
     isbn.dispose();
+    pages.dispose();
     title.dispose();
-    subtitle.dispose();
     author.dispose();
+    website.dispose();
+    subtitle.dispose();
     publisher.dispose();
     published.dispose();
     description.dispose();
-    website.dispose();
-    pages.dispose();
     super.dispose();
   }
 
   void clearText() {
     isbn.clear();
+    pages.clear();
     title.clear();
-    subtitle.clear();
     author.clear();
+    website.clear();
+    subtitle.clear();
     publisher.clear();
     published.clear();
     description.clear();
-    website.clear();
-    pages.clear();
     createdAtt('');
   }
 
   bool validation() {
     if (isbn.text != '' &&
+        pages.text != '' &&
         title.text != '' &&
-        subtitle.text != '' &&
         author.text != '' &&
+        website.text != '' &&
+        subtitle.text != '' &&
         publisher.text != '' &&
         published.text != '' &&
-        description.text != '' &&
-        website.text != '' &&
-        pages.text != '') {
+        description.text != '') {
       return true;
     } else {
       snacbar(
@@ -80,7 +81,7 @@ class ManagementController extends GetxController {
 
   void addBook() async {
     bool validations = await validation();
-    print(validations);
+    
     if (validations == true) {
       isLoading(true);
       final data = await BookDataSource(token: profile.tokens.value).insertBook(

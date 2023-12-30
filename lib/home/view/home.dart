@@ -18,6 +18,7 @@ class HomeView extends StatelessWidget {
         body: CustomFutureBuilder(
       futureProvider: () => home.getAllBook(),
       dataBuilder: (p0, data) {
+        home.jumlahBuku(data?.data?.length);
         return Column(
           children: [
             AppBarHome(),
@@ -55,7 +56,6 @@ class HomeView extends StatelessWidget {
                                       crossAxisCount: 2),
                               itemCount: data?.data?.length,
                               itemBuilder: (context, index) {
-                                home.jumlahBuku(data?.data?.length);
                                 return InkWell(
                                     onTap: () => Get.bottomSheet(
                                         DetailBook(data: data!.data![index])),

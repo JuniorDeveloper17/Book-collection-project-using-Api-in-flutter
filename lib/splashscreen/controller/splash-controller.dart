@@ -4,7 +4,6 @@ import 'package:get/get_state_manager/get_state_manager.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:test_msib1/auth/view/login.dart';
 import 'package:test_msib1/core/dependency/dependency.dart';
-
 import '../../navigation/view/navigation.dart';
 
 class SplashController extends GetxController {

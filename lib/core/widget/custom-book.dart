@@ -12,7 +12,7 @@ class BookWidget extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
       width: 140,
-      height: 180,
+      height: 185,
       margin: EdgeInsets.symmetric(horizontal: 10, vertical: 5),
       decoration: BoxDecoration(
           color: white,
