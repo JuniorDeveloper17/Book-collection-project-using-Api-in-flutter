@@ -11,7 +11,7 @@ class LogoAuth extends StatelessWidget {
       mainAxisAlignment: MainAxisAlignment.center,
       children: [
         Container(
-          height: 80,
+          height: 100,
           width: 100,
           decoration: BoxDecoration(
               image: DecorationImage(
