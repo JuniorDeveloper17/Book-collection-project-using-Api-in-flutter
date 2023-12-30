@@ -36,7 +36,7 @@ class HeaderAuth extends StatelessWidget {
                 child: Text(
                   '${title}',
                   style: GoogleFonts.openSans(
-                      color: white, fontSize: 35, fontWeight: FontWeight.w700),
+                      color: white, fontSize: 30, fontWeight: FontWeight.w700),
                 ),
               ),
             ),
